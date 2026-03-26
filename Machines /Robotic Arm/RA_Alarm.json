@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-03-25T13:32:10Z",
+  "robotId": "ROBOT_01",
+  "status": "ALARM",
+
+  "alarm": {
+    "alarmId": "ALM_501",
+    "code": "JOINT_OVERLOAD",
+    "severity": "HIGH",
+    "message": "Joint J3 load exceeded safe limit",
+    "recommendedAction": "Check payload weight or adjust motion path"
+  }
+}

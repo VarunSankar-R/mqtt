@@ -1,0 +1,30 @@
+{
+  "inspectionId": "VIS_01",
+
+  "detections": [
+    {
+      "defectId": "DEF_101",
+      "class": "SCRATCH",
+      "confidence": 0.95,
+      "boundingBox": {
+        "x": 120,
+        "y": 80,
+        "width": 50,
+        "height": 10
+      },
+      "severity": "MEDIUM"
+    },
+    {
+      "defectId": "DEF_102",
+      "class": "EDGE_ROUGHNESS",
+      "confidence": 0.92,
+      "boundingBox": {
+        "x": 300,
+        "y": 200,
+        "width": 40,
+        "height": 20
+      },
+      "severity": "HIGH"
+    }
+  ]
+}

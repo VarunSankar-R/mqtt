@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-03-25T13:00:00Z",
+  "machineId": "LASER_01",
+
+  "health": {
+    "overallHealthScore": 84,
+    "laserSourceHealth": 80,
+    "opticsHealth": 78,
+    "motionSystemHealth": 88
+  },
+
+  "maintenance": {
+    "lastMaintenanceDate": "2026-02-25",
+    "nextScheduledMaintenance": "2026-04-25",
+    "predictedFailure": {
+      "component": "lens",
+      "remainingHours": 100
+    }
+  }
+}

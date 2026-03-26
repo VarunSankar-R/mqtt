@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-03-25T15:30:00Z",
+  "asrsId": "ASRS_01",
+
+  "health": {
+    "overallHealthScore": 83,
+    "craneHealth": 80,
+    "shuttleHealth": 85,
+    "sensorHealth": 88
+  },
+
+  "maintenance": {
+    "lastMaintenanceDate": "2026-03-01",
+    "nextScheduledMaintenance": "2026-05-01",
+    "predictedFailure": {
+      "component": "crane_motor",
+      "remainingHours": 250
+    }
+  }
+}

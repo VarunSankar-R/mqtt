@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-03-25T13:02:15Z",
+  "machineId": "LASER_01",
+  "status": "ALARM",
+
+  "alarm": {
+    "alarmId": "ALM_401",
+    "code": "LOW_GAS_PRESSURE",
+    "severity": "MEDIUM",
+    "message": "Assist gas pressure below required level",
+    "recommendedAction": "Check gas supply or regulator settings"
+  }
+}

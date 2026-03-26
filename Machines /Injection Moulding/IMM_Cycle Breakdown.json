@@ -1,0 +1,12 @@
+{
+  "machineId": "IMM_01",
+
+  "cycleBreakdown": {
+    "injectionTimeSec": 5,
+    "packingTimeSec": 4,
+    "coolingTimeSec": 15,
+    "mouldOpenCloseTimeSec": 6,
+    "ejectionTimeSec": 3,
+    "idleTimeSec": 2
+  }
+}

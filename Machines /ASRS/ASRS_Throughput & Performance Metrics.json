@@ -1,0 +1,16 @@
+{
+  "asrsId": "ASRS_01",
+
+  "performance": {
+    "storageRatePerHour": 120,
+    "retrievalRatePerHour": 140,
+    "averageCycleTimeSec": 25,
+    "utilizationPercent": 78
+  },
+
+  "capacity": {
+    "totalBins": 1000,
+    "occupiedBins": 720,
+    "availableBins": 280
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "inspectionId": "QC_01",
+
+  "feedback": {
+    "sourceMachine": "IMM_01",
+    "issueDetected": "HIGH_REJECTION_RATE",
+
+    "recommendedAdjustments": [
+      {
+        "parameter": "injectionPressure",
+        "currentValue": 1200,
+        "suggestedValue": 1100
+      },
+      {
+        "parameter": "coolingTime",
+        "currentValue": 15,
+        "suggestedValue": 18
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "robotId": "AMR_01",
+
+  "navigation": {
+    "currentGoal": {
+      "x": 40,
+      "y": 20
+    },
+    "path": [
+      { "x": 26, "y": 13 },
+      { "x": 30, "y": 15 },
+      { "x": 35, "y": 18 },
+      { "x": 40, "y": 20 }
+    ],
+    "pathCompletionPercent": 55,
+    "estimatedArrivalTimeSec": 120
+  },
+
+  "localization": {
+    "method": "SLAM",
+    "mapVersion": "v1.2"
+  }
+}

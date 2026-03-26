@@ -1,0 +1,20 @@
+{
+  "machineId": "LASER_01",
+
+  "integration": {
+    "inputSource": "CONV_03",
+    "outputHandling": {
+      "type": "CONVEYOR_TRANSFER",
+      "connectedConveyor": "CONV_04",
+      "connectedAGV": "AGV_003"
+    }
+  },
+
+  "layout": {
+    "zone": "CUTTING_AREA",
+    "coordinates": {
+      "x": 50,
+      "y": 20
+    }
+  }
+}

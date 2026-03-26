@@ -1,0 +1,21 @@
+{
+  "machineId": "STRAP_01",
+
+  "integration": {
+    "inputSource": "CONV_05",
+    "outputDestination": {
+      "type": "ASRS",
+      "id": "ASRS_01"
+    },
+    "connectedRobots": ["ROBOT_03"],
+    "connectedAGVs": ["AGV_005"]
+  },
+
+  "layout": {
+    "zone": "PACKAGING_AREA",
+    "coordinates": {
+      "x": 90,
+      "y": 50
+    }
+  }
+}

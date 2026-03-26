@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-03-25T13:30:00Z",
+  "robotId": "ROBOT_01",
+  "plantId": "ND_PLANT_01",
+  "status": "RUNNING",
+
+  "operation": {
+    "mode": "AUTOMATIC",
+    "program": "PICK_PLACE_V2",
+    "cycleTimeSec": 12,
+    "elapsedCycleTimeSec": 5,
+    "currentTask": "PICK",
+    "taskStatus": "IN_PROGRESS"
+  },
+
+  "position": {
+    "x": 1200,
+    "y": 800,
+    "z": 500,
+    "rx": 0,
+    "ry": 90,
+    "rz": 0
+  },
+
+  "joints": [
+    { "jointId": "J1", "angleDeg": 30, "loadPercent": 40, "temperature": 45 },
+    { "jointId": "J2", "angleDeg": -20, "loadPercent": 50, "temperature": 48 },
+    { "jointId": "J3", "angleDeg": 60, "loadPercent": 55, "temperature": 50 },
+    { "jointId": "J4", "angleDeg": 10, "loadPercent": 30, "temperature": 42 },
+    { "jointId": "J5", "angleDeg": 90, "loadPercent": 35, "temperature": 44 },
+    { "jointId": "J6", "angleDeg": 0, "loadPercent": 25, "temperature": 40 }
+  ],
+
+  "endEffector": {
+    "type": "GRIPPER",
+    "status": "CLOSED",
+    "forceN": 120,
+    "vacuumPressure": null
+  },
+
+  "speed": {
+    "tcpSpeedMmPerSec": 800,
+    "overridePercent": 100
+  },
+
+  "safety": {
+    "emergencyStop": false,
+    "protectiveStop": false,
+    "safetyZoneTriggered": false
+  },
+
+  "energy": {
+    "consumptionKW": 6.5,
+    "voltage": 415,
+    "current": 8
+  },
+
+  "alarms": [],
+  "warnings": []
+}

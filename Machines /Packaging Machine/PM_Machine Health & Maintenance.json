@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-03-25T16:30:00Z",
+  "machineId": "PACK_01",
+
+  "health": {
+    "overallHealthScore": 86,
+    "fillingSystemHealth": 88,
+    "sealingUnitHealth": 82,
+    "labelingSystemHealth": 90
+  },
+
+  "maintenance": {
+    "lastMaintenanceDate": "2026-03-10",
+    "nextScheduledMaintenance": "2026-05-10",
+    "predictedFailure": {
+      "component": "sealing_heater",
+      "remainingHours": 220
+    }
+  }
+}

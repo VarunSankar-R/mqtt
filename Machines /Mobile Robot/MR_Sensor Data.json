@@ -1,0 +1,19 @@
+{
+  "robotId": "AMR_01",
+
+  "sensors": {
+    "lidar": {
+      "status": "ACTIVE",
+      "rangeMeters": 25,
+      "obstaclesDetected": 2
+    },
+    "camera": {
+      "status": "ACTIVE",
+      "objectsDetected": ["HUMAN", "PALLET"]
+    },
+    "ultrasonic": {
+      "status": "ACTIVE",
+      "distanceCm": 50
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "machineId": "STRAP_01",
+
+  "quality": {
+    "tensionAccuracyPercent": 97,
+    "sealStrengthN": 1100,
+    "sealIntegrity": "PASS"
+  },
+
+  "defects": {
+    "looseStrap": 20,
+    "sealFailure": 15,
+    "misalignment": 15
+  }
+}

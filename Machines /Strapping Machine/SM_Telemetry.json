@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-03-25T16:02:10Z",
+  "machineId": "STRAP_01",
+  "status": "ALARM",
+
+  "alarm": {
+    "alarmId": "ALM_801",
+    "code": "STRAP_JAM",
+    "severity": "HIGH",
+    "message": "Strap feeding jam detected",
+    "recommendedAction": "Check strap alignment and clear jam"
+  }
+}

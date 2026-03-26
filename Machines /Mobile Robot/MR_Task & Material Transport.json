@@ -1,0 +1,21 @@
+{
+  "robotId": "AMR_01",
+
+  "task": {
+    "taskId": "TASK_321",
+    "type": "DELIVERY",
+    "pickupLocation": "CONV_01",
+    "dropLocation": "CNC_02",
+
+    "payload": {
+      "itemId": "ITEM_789",
+      "type": "RAW_MATERIAL",
+      "weightKg": 80
+    }
+  },
+
+  "taskProgress": {
+    "pickupCompleted": true,
+    "dropCompleted": false
+  }
+}

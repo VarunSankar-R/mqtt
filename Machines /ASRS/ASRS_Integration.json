@@ -1,0 +1,19 @@
+{
+  "asrsId": "ASRS_01",
+
+  "integration": {
+    "connectedConveyors": ["CONV_01", "CONV_02"],
+    "connectedRobots": ["ROBOT_01"],
+    "connectedAGVs": ["AGV_002", "AMR_01"],
+    "inputSource": "INBOUND_DOCK",
+    "outputDestination": "PRODUCTION_LINE"
+  },
+
+  "layout": {
+    "zone": "WAREHOUSE_AREA",
+    "coordinates": {
+      "x": 80,
+      "y": 40
+    }
+  }
+}

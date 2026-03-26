@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-03-25T13:30:00Z",
+  "robotId": "ROBOT_01",
+
+  "health": {
+    "overallHealthScore": 87,
+    "jointHealth": 85,
+    "controllerHealth": 90,
+    "endEffectorHealth": 88
+  },
+
+  "maintenance": {
+    "lastMaintenanceDate": "2026-02-28",
+    "nextScheduledMaintenance": "2026-04-28",
+    "predictedFailure": {
+      "component": "joint_bearing_J3",
+      "remainingHours": 180
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "asrsId": "ASRS_01",
+
+  "orderFulfillment": {
+    "orderId": "ORDER_999",
+    "items": [
+      {
+        "itemId": "ITEM_1001",
+        "requestedQty": 20,
+        "pickedQty": 20
+      }
+    ],
+    "status": "IN_PROGRESS"
+  },
+
+  "traceability": {
+    "batchId": "BATCH_88",
+    "timestamp": "2026-03-25T15:30:00Z"
+  }
+}

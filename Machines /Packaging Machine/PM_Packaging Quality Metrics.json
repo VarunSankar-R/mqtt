@@ -1,0 +1,15 @@
+{
+  "machineId": "PACK_01",
+
+  "quality": {
+    "fillAccuracyPercent": 98.5,
+    "sealIntegrity": "PASS",
+    "labelAccuracyPercent": 99
+  },
+
+  "defects": {
+    "underfill": 100,
+    "sealFailure": 120,
+    "labelMisalignment": 80
+  }
+}

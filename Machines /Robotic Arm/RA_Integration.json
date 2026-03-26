@@ -1,0 +1,18 @@
+{
+  "robotId": "ROBOT_01",
+
+  "integration": {
+    "connectedMachines": ["CNC_01", "IMM_01"],
+    "connectedConveyors": ["CONV_01", "CONV_02"],
+    "connectedAGVs": ["AGV_001"],
+    "role": "MATERIAL_HANDLER"
+  },
+
+  "layout": {
+    "zone": "ASSEMBLY_AREA",
+    "coordinates": {
+      "x": 40,
+      "y": 25
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "machineId": "IMM_01",
+
+  "job": {
+    "jobId": "JOB_890",
+    "partName": "Plastic Housing",
+    "material": "ABS",
+    "batchSize": 20000,
+    "producedParts": 12500,
+    "rejectedParts": 300
+  },
+
+  "quality": {
+    "defects": {
+      "shortShot": 120,
+      "flash": 80,
+      "warpage": 100
+    },
+    "rejectionRate": 0.024
+  },
+
+  "oee": {
+    "availability": 0.90,
+    "performance": 0.87,
+    "quality": 0.976,
+    "oeeScore": 0.76
+  }
+}

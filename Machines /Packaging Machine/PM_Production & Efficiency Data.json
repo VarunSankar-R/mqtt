@@ -1,0 +1,16 @@
+{
+  "machineId": "PACK_01",
+
+  "production": {
+    "totalPackages": 15200,
+    "goodPackages": 14900,
+    "rejectedPackages": 300
+  },
+
+  "efficiency": {
+    "availability": 0.93,
+    "performance": 0.89,
+    "quality": 0.98,
+    "oeeScore": 0.81
+  }
+}

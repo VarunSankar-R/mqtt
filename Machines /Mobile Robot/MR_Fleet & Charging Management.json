@@ -1,0 +1,15 @@
+{
+  "robotId": "AMR_01",
+
+  "fleet": {
+    "fleetId": "FLEET_A",
+    "priorityLevel": "HIGH",
+    "queuePosition": 2
+  },
+
+  "charging": {
+    "nearestStation": "CHARGE_01",
+    "distanceToStation": 15,
+    "autoDockEnabled": true
+  }
+}

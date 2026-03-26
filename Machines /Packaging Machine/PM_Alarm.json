@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-03-25T16:32:10Z",
+  "machineId": "PACK_01",
+  "status": "ALARM",
+
+  "alarm": {
+    "alarmId": "ALM_901",
+    "code": "SEAL_FAILURE",
+    "severity": "HIGH",
+    "message": "Seal integrity below threshold",
+    "recommendedAction": "Check sealing temperature and pressure"
+  }
+}

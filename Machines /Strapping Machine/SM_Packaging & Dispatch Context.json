@@ -1,0 +1,10 @@
+{
+  "machineId": "STRAP_01",
+
+  "packaging": {
+    "packageId": "PKG_789",
+    "batchId": "BATCH_120",
+    "destination": "WAREHOUSE",
+    "readyForDispatch": true
+  }
+}

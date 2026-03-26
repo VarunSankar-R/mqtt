@@ -1,0 +1,16 @@
+{
+  "machineId": "PACK_01",
+
+  "batch": {
+    "batchId": "BATCH_150",
+    "productName": "Liquid Detergent",
+    "manufactureDate": "2026-03-25",
+    "expiryDate": "2027-03-25"
+  },
+
+  "traceability": {
+    "operatorId": "OP_25",
+    "shift": "EVENING",
+    "lineId": "LINE_02"
+  }
+}

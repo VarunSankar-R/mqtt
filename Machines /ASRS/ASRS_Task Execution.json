@@ -1,0 +1,24 @@
+{
+  "asrsId": "ASRS_01",
+
+  "task": {
+    "taskId": "TASK_654",
+    "type": "RETRIEVE",
+    "priority": "HIGH",
+
+    "source": {
+      "binId": "BIN_A1_05"
+    },
+
+    "destination": {
+      "type": "CONVEYOR",
+      "id": "CONV_01"
+    }
+  },
+
+  "taskProgress": {
+    "pickupCompleted": true,
+    "dropCompleted": false,
+    "progressPercent": 70
+  }
+}

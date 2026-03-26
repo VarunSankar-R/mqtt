@@ -1,0 +1,20 @@
+{
+  "inspectionId": "QC_01",
+
+  "integration": {
+    "inputSource": "CONV_02",
+    "outputRouting": {
+      "pass": "CONV_03",
+      "fail": "REJECT_BIN",
+      "rework": "AGV_004"
+    }
+  },
+
+  "layout": {
+    "zone": "QUALITY_AREA",
+    "coordinates": {
+      "x": 60,
+      "y": 30
+    }
+  }
+}
