@@ -16,6 +16,26 @@ import signal
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PYTHON   = sys.executable
 
+def install_requirements():
+    """Install packages listed in requirements.txt if not already satisfied."""
+    req_file = os.path.join(BASE_DIR, "requirements.txt")
+    if not os.path.exists(req_file):
+        print("[launcher] requirements.txt not found — skipping install.")
+        return
+    print("[launcher] Checking / installing requirements...")
+    result = subprocess.run(
+        [PYTHON, "-m", "pip", "install", "-r", req_file],
+        capture_output=True, text=True
+    )
+    # Print only lines that show something actually happened (skip "already satisfied")
+    for line in result.stdout.splitlines():
+        if "already satisfied" not in line.lower():
+            print(f"[pip] {line}")
+    if result.returncode != 0:
+        print("[launcher] ⚠️  pip install failed:")
+        print(result.stderr)
+        sys.exit(1)
+    print("[launcher] Requirements OK.")
 
 def stream_output(proc: subprocess.Popen, prefix: str):
     """Read stdout/stderr from a process and print with a label prefix."""
@@ -50,6 +70,7 @@ def stop_process(proc: subprocess.Popen, label: str):
 
 
 def main():
+    install_requirements()
     print("[launcher] Starting ASRS project...")
     print("[launcher] ─────────────────────────────────────────")
 
